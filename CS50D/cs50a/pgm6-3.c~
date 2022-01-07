@@ -1,0 +1,25 @@
+#include <stdio.h>
+#define MAXCOUNT 4
+
+/* function prototype */
+void tempConvert(float ); 
+
+/* Main Program */
+
+int main() {
+ 
+   int count;     /* start of variable declarations */
+   float fahren;
+
+   for (count = 1; count <= MAXCOUNT; count++)  {
+      printf("Enter a Fahrenheit temperature: ");
+      scanf("%f", &fahren);
+      tempConvert(fahren);  /* Function calling */
+   }
+   return 0;
+}
+
+/* function header */
+void tempConvert(float inTemp) {
+  printf("The Celsius equivalent is %6.2f\n", (5.0/9.0) * (inTemp - 32.0) );
+}

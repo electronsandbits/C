@@ -1,0 +1,45 @@
+/*
+ * File:pgm9-2.c
+ * -------------
+ * This program illustrates string processing.
+ * 
+ *
+ */
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void strcopy(char [], char []);
+
+
+/* Constants */
+ 
+#define LSIZE 81
+
+
+/* Main program */
+
+int main() {
+   char message[LSIZE];
+   char newMessage[LSIZE];
+
+
+   printf("Enter a sentence: ");
+   gets(message);
+   strcopy(newMessage, message); /* Function's call */
+   puts(message);
+
+   return 0;
+}
+	     
+/* 
+ * Function: strcopy
+ * Usage:
+ * -----------------
+ * Copies the content of string2 to string1.
+ */
+
+void strcopy(char string1[], char string2[]) {
+

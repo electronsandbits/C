@@ -1,0 +1,14 @@
+/*
+ * File: slope.c 
+ * -------------
+ * This program calculates the slope of a line.
+ * To calculate the slope of the line, the coordinate,
+ * the values of the two end points of the line, must be known.
+ * The user is prompted to input the coordinates values for the two
+ * end points of the line. The value computed for the slope of the line 
+ * printed. The output shows the input coordinate end points 
+ * and the calculated value for the  the slope.
+ */
+
+#include <stdio.h>
+

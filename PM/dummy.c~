@@ -1,0 +1,14 @@
+/*
+ * File: dummy.c 
+ * Just playing aroun with C.
+ */
+
+
+#include <stdio.h>
+
+int main () {
+
+
+
+
+} 

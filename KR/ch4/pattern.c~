@@ -1,0 +1,25 @@
+/*
+ * File:pattern.c 
+ * --------------
+ * This program print each line of its input that contains 
+ * a particular "pattern " or string of characters.
+ * For example, searching for the pattern of letters "ould" 
+ * in the set of lines.
+ */
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+int getLine(char line[], int max);
+int strIndex(char source[], char searchFor[]);
+
+
+/* Constants */
+
+#define MAXLINE 1000 /* Maximum input line length */
+
+
+char pattern[] = "ould"; /* pattern to search for */

@@ -1,0 +1,22 @@
+/* 
+ * File: array3.c 
+ * ---------------
+ * This program show the input of parallel arrays.
+ */
+
+
+#include <stdio.h>
+
+
+/* Constants */
+
+#define ARR 4
+
+/* Main Program */
+
+int main() {
+  int i;
+  int x[ARR], Y[ARR];
+
+
+}

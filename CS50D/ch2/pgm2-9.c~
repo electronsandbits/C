@@ -1,0 +1,16 @@
+/*
+ * File: pgm2-9.c 
+ * --------------
+ * This program covnert a Fahrenheit temperature to Celsius.
+ */
+
+
+#include <stdio.h>
+
+
+int main() {
+
+
+
+
+}

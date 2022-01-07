@@ -1,0 +1,17 @@
+/*
+ * File: exerc1.c
+ * .............
+ * This program prints my personal information
+ * 
+ */
+
+#include <stdio.h>
+
+int main () {
+   
+   prinf(" Frank Funny");
+   printf("\n 1235 Prof Mello Moraes Ave.");
+   printf("\n 05508-030 Sao Paulo- SP");
+
+   return 0;
+} 

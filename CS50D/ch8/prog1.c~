@@ -1,0 +1,27 @@
+/*
+ * File: prog1.c 
+ * -------------
+ * 
+ */
+
+
+#include <stdio.h>
+
+/* Constants */
+
+#define PRICES 9
+
+int main() {
+   double prices[PRICES];
+   double i;
+
+ 
+   for (i = 0; i < PRICES; i++) {
+      printf("Enter the prices:");
+      scanf("%lf", &prices[i]);
+ 
+   }
+   printf("%l",  price[i]);
+
+   return 0; 
+}

@@ -1,0 +1,8 @@
+/*
+ * File: array7.c 
+ * --------------
+ * This program demonstrates the output of parallel arrays.
+ */
+
+
+#include <stdio.h> 

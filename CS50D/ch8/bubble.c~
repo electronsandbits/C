@@ -1,0 +1,6 @@
+/*
+ * File: bubbleSort.c 
+ * ------------------
+ * This program implements bubble sort algorithm, where sucessive
+ * values in the list are compared, beginning with the first two elements.
+ */

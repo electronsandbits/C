@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+/* Function prototypes  with a pointer parameter */
+   void newval(float *); 
+   float testval;
+
+int main() {
+   printf("\nEnter a number: ");
+   scanf("%f", &testval);
+
+   printf("The address that will be passed is %u\n\n", &testval);
+   newval(&testval);   /* call the function */
+
+   return 0;
+}
+
+/* function header using a pointer parameter */
+
+void newval(float *xnum) {
+   printf ("The address received is %u\n", xnum);
+   printf("The value pointed to by xnum is: %5.2f \n", *xnum );
+}

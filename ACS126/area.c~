@@ -1,0 +1,21 @@
+/*
+ * File:area.c
+ * -----------
+ * This program compute the area  of a 
+ * scalene triangle given the sides of the triangle.
+ */
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+   int a, b, c;
+   float s, area;
+
+   printf("Input integer values for the Sides:\n");
+
+
+
+
+
+}

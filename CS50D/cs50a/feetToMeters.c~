@@ -1,0 +1,33 @@
+/* 
+ * File: feetToMeters.c 
+ * ----------------------
+ * This program converts feet to meters.
+ * The program prints the table starting from 3
+ * to 30  in 3-foot increment.
+ */
+
+#include <stdio.h>
+
+/* Constants */
+
+#define FEETPERMETERS 3.28
+
+/* Main program */
+
+int main (void) {
+   float feet;
+   int  meter;
+   
+   
+   printf("This program converts feet to meters.\n");
+   printf("FEET METERS\n");
+   printf("---- ------\n");
+
+   feet = 3;
+   while (feet <= 30)  {
+      feet = meter * FEETPERMETERS;
+      printf("%11.2f%3d \n", feet, meter);
+      feet += 3;
+   }
+   return 0;
+}

@@ -1,0 +1,24 @@
+/*
+ * File: check.c 
+ * -------------
+ * This program 
+ */
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+check (int num1, float num2, double num3);
+
+
+
+/* Main program */
+
+int main () {
+
+
+
+
+}

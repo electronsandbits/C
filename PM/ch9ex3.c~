@@ -1,0 +1,10 @@
+/*
+ * File:ch9ex3.c
+ * -------------
+ * This program calculates the average of four grades 
+ * and also does some other basic math. 
+ */
+
+
+#include <stdio.h>
+

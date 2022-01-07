@@ -1,0 +1,7 @@
+/*
+ * File:conversionTable.c
+ * ----------------------
+ * This program produce the Celsius-to-Fahrenheit 
+ * temperature conversion table.
+ * The program assumes that Fahrenheit temperature corresponding
+ * 

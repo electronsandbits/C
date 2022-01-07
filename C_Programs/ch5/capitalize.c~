@@ -1,0 +1,16 @@
+/*
+ * File: capitalize.c 
+ * ------------------
+ * This program capitalize lowercase letters and double space.
+ */
+
+
+#include <stdio.h>
+
+
+int main(void) {
+
+
+
+
+}

@@ -1,0 +1,9 @@
+/* 
+ * File: tableSize.c 
+ * -----------------
+ * This program prints a table of numbers
+ * including their squares and cubes.
+ */
+
+#include <stdio.h>
+

@@ -1,0 +1,5 @@
+/*
+ * File: maxMin.c
+ * --------------
+ * This program locate both the maximun and mininum value 
+ * within an array.

@@ -1,0 +1,15 @@
+/*
+ * File:repeatChar.c 
+ * -----------------
+ *
+ */
+
+#include <ctype.h>
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void repeat(char, int)
+
+

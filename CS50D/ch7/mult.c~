@@ -1,0 +1,27 @@
+/*
+ * File: mult.c
+ * ------------
+ * This program calculates the product of 
+ * two numbers entered by the user.
+ */
+
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void mult(float x, float y) ;
+
+
+/* Main program */
+
+int main() {
+
+
+
+
+
+
+}

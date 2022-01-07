@@ -1,0 +1,5 @@
+/*
+ * File: stressStrain.c 
+ * --------------------
+ * This program compute the stres and strain in steel 
+ * columns subject to

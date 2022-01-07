@@ -1,0 +1,44 @@
+/*
+ * File:pgm7-6.c 
+ * --------------
+ * This program illustrates passing an address to a function.
+ */
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void newVal(float *); 
+
+
+/* Main program */
+
+int main()  {
+   float testVal;
+
+   printf("\nEnter a number:");
+   scanf("%f", &testVal);
+
+   printf("The address that will be passed is %u\n\n", &testVal);
+
+
+   newVal (&testVal); /* Function's call */
+
+   return 0;
+}
+
+
+/* 
+ * Function: newVal
+ * Usage: newVal(float)
+ * --------------------
+ * Returns  the adress.
+ */
+
+void newVal(float *xNum) {
+    
+   printf("The address received is %u\n", xNum);
+   printf("The value pointed to by xNum is:  %5.2f \n", *xNum) ;
+
+}

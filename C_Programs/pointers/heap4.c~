@@ -1,0 +1,14 @@
+/*
+ * File: heap4.c 
+ * -------------
+ * This program demonstrates heap using structure.
+ */
+
+
+#include <stdio.h>
+#inclide <stdlib.h>
+
+
+/*
+ * Type:rec
+ *

@@ -1,0 +1,8 @@
+/*
+ * File: pgm4-1.c 
+ * --------------
+ * THis program checks a car's mileage and prints
+ * a message if the  car has been driven more than 3,000 miles.
+ */
+
+

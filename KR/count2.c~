@@ -1,0 +1,21 @@
+/* 
+ * File:count2.c
+ * -------------
+ * This program count characters in input.
+ * Using the for loop.
+ */
+
+#include <stdio.h>
+
+int main()
+{
+   long nc;
+
+   nc = 0;
+   while (getchar() != EOF) {
+      ++nc;   
+   }
+   printf("%ld\n",  nc);
+    
+   return 0;
+}

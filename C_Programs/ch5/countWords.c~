@@ -1,0 +1,23 @@
+/*
+ * File: countWords.c 
+ * ------------------
+ * This program count the number of words being input at 
+ * the keyboard.
+ */
+
+
+#include <stdio.h>
+#include <ctype.h>
+
+/* Function prototypes */
+
+int foundNextWord(void);
+
+
+/* Main program */
+
+int main (void) {
+
+
+}
+

@@ -1,0 +1,17 @@
+/*
+ * File: ptr7.c 
+ * ------------
+ * This program demonstrates pointers to pointers.
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+
+
+
+}

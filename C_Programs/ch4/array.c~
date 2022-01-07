@@ -1,0 +1,23 @@
+/*
+ * File:array.c 
+ * ------------
+ * This program loads an integer array  with numbers
+ * 0 through 99.
+ */
+
+
+#include <stdio.h>
+
+
+int main(void) {
+   int x[100]; /* This declares a 100-integer array */
+   int t;
+
+   /* Load x with values 0 through 99 */
+   for (t = 0; t < 100; ++t) {
+      x[t] = t;
+   }
+    
+
+
+}

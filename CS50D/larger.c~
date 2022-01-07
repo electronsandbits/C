@@ -1,0 +1,6 @@
+/*
+ * File:Larger.c
+ * --------------
+ * This program asks the user to enter two integers.
+ * And the program then decides which one of the numbers is the largest.
+ */

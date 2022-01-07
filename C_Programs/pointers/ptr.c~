@@ -1,0 +1,14 @@
+/*
+ * File: ptr.c 
+ * ----------- 
+ * This program illustrates pointers basics
+ */
+
+
+#include <stdio.h>
+
+int main() {
+
+
+
+}

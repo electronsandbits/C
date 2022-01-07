@@ -1,0 +1,38 @@
+/*
+ * File: prog2.c 
+ * -------------
+ *
+ */
+
+
+#include <stdio.h>
+
+
+/* Constants */
+
+#define TEMP 15
+
+
+/* Main program */
+
+
+int main() {
+   int temp[TEMP];
+   int i, average, total = 0;
+
+  
+   /* Input the integers numbers */
+
+   for (i = 0; i < TEMP; i++) { 
+      printf("Enter the numbers:");
+      scanf("%d", &numbers[i]);
+   }
+
+   /* Display and average the numbers */
+   printf("\nThe average of the numbers ") ;
+   for (i = 0; i < TEMP; i++) {
+      
+   }
+
+   printf("is %d\n", average);
+}

@@ -1,0 +1,24 @@
+/*
+ * File: area.c
+ * ------------
+ * This program calculate the areas of circles,
+ * using a while loop; the results are stored
+ * in an array of structures.
+ * The number of circles is unspecified.
+ * a string is entered to identify each data set
+ */
+
+
+#include <stdio.h>
+
+/* Function prototypes */
+
+float process(float radius);
+
+/* Constants */
+
+#define PI 3.1159
+
+
+int main () {
+   int n, i = 0;

@@ -1,0 +1,17 @@
+/* 
+ * File: prog7.c
+ * -------------
+ * This program computes and display the total 
+ * and average of two integers.
+ */
+
+
+#include < stdio.h>
+
+
+int main() {
+
+
+
+
+}

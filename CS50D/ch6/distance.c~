@@ -1,0 +1,7 @@
+/* 
+ * File: distance.c 
+ * ----------------
+ * This program accepts the rectangular 
+ * coordinates of two points x1,y1 and x2,y2 
+ * calculates aand teyuns the distance between the two points.
+ */

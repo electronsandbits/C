@@ -1,0 +1,21 @@
+/* 
+ * File:pgm9-3.c 
+ * -------------
+ * This program illustrates string processing, using 
+ * the character-input getchar() to enter a string one 
+ * character at a time.
+ */
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+void getline(char []);
+
+
+/* Constants */
+
+
+
+

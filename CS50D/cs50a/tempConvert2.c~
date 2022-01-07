@@ -1,0 +1,27 @@
+/*
+ * File: tempConvert2.c 
+ * --------------------
+ * This program converts from Fahrenheit temperature 
+ * to Celsius equivalent.
+ */
+
+
+#include <stdio.h>
+
+/* Constants */
+
+#define MAXCOUNT 4
+
+
+/* Function prototypes */
+
+float tempConvert (float);
+
+/* Main program */
+
+int main () {
+
+
+
+
+}

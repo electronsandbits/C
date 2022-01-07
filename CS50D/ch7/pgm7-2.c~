@@ -1,0 +1,39 @@
+/*
+ * File: pgm7-2.c 
+ * --------------
+ * This program demonstrates variable storage class.
+ */
+
+
+#include <stdio.h>
+
+/* Function prototypes */
+
+void testauto(); 
+
+
+/* Main program */
+
+int main() {
+   int count; /* create the auto variable count */
+
+   for(count = 1; count <= 3; count++)
+
+   testauto(); /* Function's call */
+
+   return 0;
+}
+
+/*
+ * Function: testauto
+ * Usage: testauto
+ * -------------------
+ */
+
+void testauto() {
+   int num = 0;  /* create the auto variable num */
+                /* and initialize to zero */
+
+   printf("The value of the automatic variable num is %d\n", num);
+   num++;
+}

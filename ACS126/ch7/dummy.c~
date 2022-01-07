@@ -1,0 +1,20 @@
+/*
+ * File: dummy.c 
+ * -------------
+ * This program illustrates simple array operations.
+ */
+
+
+#include <stdio.h>
+
+/* Constants */
+#define SIZE 5
+
+
+/* Main program */
+
+int main() {
+
+
+
+}

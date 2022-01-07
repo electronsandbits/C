@@ -1,0 +1,10 @@
+/* 
+ * File: counter2.c 
+ * ----------------
+ * This program demonstrates simple use of 
+ * the While stament.
+ */
+
+#include <stdio.h>
+
+

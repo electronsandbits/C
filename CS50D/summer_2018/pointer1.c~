@@ -1,0 +1,10 @@
+/*
+ * File: pointer1.c
+ * ----------------
+ * This short program demonstrate pointers.
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>

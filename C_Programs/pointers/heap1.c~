@@ -1,0 +1,10 @@
+/*
+ * File: heap1.c 
+ * -------------
+ * This program show two different valis uses of pointers
+ */
+
+
+#include <stdio.h>
+
+

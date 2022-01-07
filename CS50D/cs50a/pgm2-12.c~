@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+
+   int num = 22;
+
+   printf("The value stored in num is %d.",num);
+   printf("\nThe computer uses %d bytes to store this value", sizeof(int));
+
+   return 0;
+}

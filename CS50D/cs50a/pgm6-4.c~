@@ -1,0 +1,46 @@
+/* 
+ * File: pgm6-4.c 
+ * --------------
+ * This program return the maxixum values of the two numbers passed to it.
+ * but now with a rturn stament.
+ */
+ 
+#include <stdio.h>
+
+/* the function prototype */
+
+ float findMax(float, float); 
+
+/* The Main Program */
+
+int main() {
+
+   float firstnum, secnum, max;
+   printf("\nEnter a number: ");
+   scanf("%f", &firstnum);
+   printf("Great! Please enter a second number: ");
+   scanf("%f", &secnum);
+
+   /* the function is called here */
+   max = findMax(firstnum, secnum); 
+   printf("\nThe maximum of the two numbers is %f\n", max);
+
+   return 0;
+}
+
+/* following is the function findMax() */
+
+float findMax(float x, float y) {       /* this is the function's header line */
+             
+  float maxnum;     
+
+/* find the maximum number */
+  if (x >= y)  {    
+    maxnum = x;
+  } else {
+     maxnum = y;
+
+    return (maxnum);
+  }
+
+}	

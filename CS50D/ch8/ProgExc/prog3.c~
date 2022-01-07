@@ -1,0 +1,32 @@
+/* 
+ * File: prog3.c 
+ * --------------
+ * This program accepts a list of integer numbers
+ * Calculate their averages and then uses this average 
+ * to determine the deviation.
+ */
+
+
+
+#include <stdio.h>
+#include <math.h>
+
+
+/*Constants */
+
+#define GRADES 14
+
+/* Main program */
+
+int main() {
+   int grades[GRADES] = {89, 95, 72, 83, 
+                        99, 54, 86, 75, 92,
+                        73, 79, 75, 82, 73};
+
+   float average, total, deviation;
+
+
+
+
+}
+ 

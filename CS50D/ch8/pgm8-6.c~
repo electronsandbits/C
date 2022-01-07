@@ -1,0 +1,10 @@
+/*
+ * File: pgm8-6.c 
+ * --------------
+ * This program  uses two statistical functions 
+ * to determine the average and standard deviation
+ * of an array of numbers.
+ */
+
+
+

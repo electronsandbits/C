@@ -1,0 +1,26 @@
+/*
+ * File: Circumference.c
+ * This program calculates and display 
+ * the circumference of a circule.
+ */
+
+
+#include <stdio.h>
+
+/* Constants */
+
+#define PI 3.1416
+
+
+/* Main program */
+
+int main() {
+   float circumference, radius;
+ 
+   radius  = 2.7;
+
+   circumference = 2 * r * PI;
+
+   printf("The circumference of the circle is %f", circumference )
+}
+ 

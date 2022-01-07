@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+   puts (" Struggles is excellence in progress.");
+
+
+   return 0;
+
+}

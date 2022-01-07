@@ -1,0 +1,26 @@
+/*
+ * File: progr1a.c 
+ *----------------
+ */
+
+
+#include <stdio.h>
+#define MAXGRADES 9
+
+int main () {
+   int grades [MAXGRADES];
+   int i ;
+
+   /* Input the grades */
+   for ( i = 0; i < MAXGRADES; i++) {
+      printf("Enter a grade: ");
+      scanf("%d", &grades[i]);
+   }
+  
+   /* Display the grades */
+
+   for ( i = 0; i < MAXGRADES; i++) {
+     printf("grades %d is %d\n", grades[i]);
+   }
+   return 0;
+}

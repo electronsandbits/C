@@ -1,0 +1,10 @@
+/*
+ * File:textConversion.c 
+ * ---------------------
+ * This program will read a line of lowercase text 
+ * charactet-by-character ans sotre the characters in 
+ * char-type called letter. The program will continue
+ * reading input characters untl an end-of-line(EOF)
+ * character has been read. The characters will then be 
+ * converted to uppercase, using the library function
+ * toupper, and displayed.

@@ -1,0 +1,6 @@
+/*
+ * File: stress.c 
+ * --------------
+ * This program computes the compression stress
+ * in a steel column.
+ */

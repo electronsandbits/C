@@ -1,0 +1,17 @@
+/*
+ * File: power.c 
+ * -------------
+ * This program raises an integer m to a 
+ * positive integet power n.
+ * That is, the value of power(2,5) is 32.
+ */
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+int power(int m, int n);
+
+
+/* Main program */

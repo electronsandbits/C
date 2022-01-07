@@ -1,0 +1,28 @@
+/*
+ * File: tax.c
+ * -----------
+ * This program computes  an income tax for NJ resident's.
+ * New Jersey state income tax is assessed at 2% of taxable
+ * income for incomes less than or equal to $20,000. For taxable 
+ * income greater than $20,000, state taxes are 2.5% of the income 
+ * that exceeds $20,000 plus a fixed amount of $400.
+ */
+
+#include <stdio.h>
+
+
+
+int main() {
+   
+
+   printf("This program calculates the an income tax.");
+
+
+
+
+} 
+
+
+
+
+

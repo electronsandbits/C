@@ -1,0 +1,17 @@
+/*
+ * File: RPN.c 
+ * -----------
+ * This program uses the Reverse Polish notation to
+ * implement a calculator program.
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>  /* for atop() */
+
+/* Function prototypes */
+
+int getOp(char []);
+void push(double);
+double pop(void);
+

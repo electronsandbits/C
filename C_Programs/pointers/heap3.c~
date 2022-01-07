@@ -1,0 +1,23 @@
+/* 
+ * File :heap3.c 
+ * -------------
+ * The following program shows how to use the heap.
+ * It allocates and integer block, fills it, wirtes it, and 
+ * disposes of it.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+   int *P;
+
+   P = (int *) malloc(sizeof(int));
+   *p = 10;
+   printf("%d\n", *p);
+   free(p);
+
+   return 0;
+
+}

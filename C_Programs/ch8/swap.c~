@@ -1,0 +1,24 @@
+/*
+ * File: swap.c 
+ * ------------
+ * This program illustrares call-by-reference.
+ *
+ */
+
+
+/* Function */
+void swap (int  *, int *);
+
+
+/* Main program */
+
+int main (void) {
+   int a = 3, b = 7;
+ 
+   printf("%d   %d\n", a, b); /* 3 and  7 is printed */
+   swap(&a, &b); /* Function's call */
+   printf("%d  %d\n", a, b); /* 7 and 3  is printed */
+
+   return 0;
+
+}

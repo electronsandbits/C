@@ -1,0 +1,12 @@
+/*
+ * File:average.c 
+ * --------------
+ * This program calculate the average
+ * of a list  of n numbers.
+ * Our strategy will be  based on the use 
+ * of a partial sum that is initially set 
+ * equal to zero, then updated as each new number
+ * is read into the computer.
+ */
+
+

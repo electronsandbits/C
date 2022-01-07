@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+
+   width = 15;
+   length = 10;
+
+   area = lenght * width;
+   printf("The area is %d, area);
+
+   return 0;
+}

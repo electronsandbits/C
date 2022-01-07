@@ -1,0 +1,16 @@
+/*
+ * File:pgm2-2.c 
+ * This program illustrates the  process
+ * of invokin or calling a function by passing 
+ * argumentos to it.
+ */
+
+#include <stdi.h>
+
+
+int main() {
+   printf("Hello there world!");
+
+   return 0;
+
+}

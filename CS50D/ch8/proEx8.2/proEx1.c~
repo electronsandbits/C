@@ -1,0 +1,27 @@
+/*
+ * File: string.c 
+ * --------------
+ * This program shows how to declare and  displays  string characters.
+ */
+
+
+
+#include <stdio.h>
+
+
+int main() {
+   char messag1 [21]  = "Input the the Following Data";
+   char messag2 []    = "---------------";
+   char messag3 []    = {'E','n','t','e','r', '','t','h','e','','D','a','t','e'}; 
+   char messag4 [22]  = "Enter the Account Number";
+
+
+   printf("%", messag1);
+   printf("%", messag2);
+   printf("%", messag3);
+   printf("%", messag4);
+
+
+   return 0;
+
+}

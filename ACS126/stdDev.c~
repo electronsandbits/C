@@ -1,0 +1,10 @@
+/* 
+ * File: stdDev.c 
+ * --------------
+ * This program computes the mean and the standard deviation
+ * from a set of data values from measurement collected 
+ * from a scientific experriment.
+ */
+
+#include <stdio.h>
+

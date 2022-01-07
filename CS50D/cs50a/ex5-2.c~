@@ -1,0 +1,22 @@
+/* 
+ * File: ex5-2.c 
+ * -------------
+ * This set of programs refer to exercises 5-2.
+ */
+
+
+#include<stdio.h>
+
+/* This program displays the numbers from 10 to 20 on a single line.*/
+
+int main () {
+   
+   int number = 10;
+  
+   while (number <= 20) {
+      printf("%d", number);
+      number +=;
+   }
+   return 0;   
+}  
+

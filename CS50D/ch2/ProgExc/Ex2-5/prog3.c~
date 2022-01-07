@@ -1,0 +1,22 @@
+/*
+ * File: prog3.c 
+ * -------------
+ * This program calculates and display the area 
+ * of the rectangle.
+ */
+
+
+#include <stdio.h>
+
+int main() {
+   float lenght, width;
+
+   width = 3.5;
+   lenght = 5.48;
+
+  
+  
+
+
+}
+

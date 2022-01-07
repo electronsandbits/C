@@ -1,0 +1,40 @@
+/*
+ * File: prog2.c 
+ * --------------
+ * This program locate the maximum 
+ * of 15 integers numbers while their are being input.
+ */
+
+
+#include <stdio.h>
+
+
+/* Constants */
+
+#define TEMP 15
+
+
+/* Main program */
+
+int main() {
+   int temp[TEMP];
+   int i, maximum;
+
+  
+   /* Input the integers numbers */
+   maximum = temp[i];
+   for (i = 0; i < TEMP; i++) { 
+     printf("Enter the numbers:  ");
+      scanf("%d", &temp[i]);
+   }
+
+   /* Display and average the numbers */
+   printf("\nThe average of the numbers    ") ;
+   for (i = 0; i < TEMP; i++) {
+      printf(" %d", temp[i]);
+      average = temp[i] / 2.0;
+   }
+   printf(" is %d\n    ",  average);
+  
+   return 0;
+}

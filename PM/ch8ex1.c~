@@ -1,0 +1,16 @@
+/*
+ * File:ch8ex1.c 
+ * -------------
+ * This program asks users for some basic
+ * data and prints it on screen in order to show what was entered
+ */
+
+
+#include <stdio.h>
+
+
+int main () {
+
+
+
+}

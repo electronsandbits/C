@@ -1,0 +1,6 @@
+/*
+ * File:fahr2.c 
+ * ------------
+ * This program prints  Fahrenheit-Celsius table
+ * using a for loop.
+ */

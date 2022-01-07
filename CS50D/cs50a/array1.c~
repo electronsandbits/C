@@ -1,0 +1,24 @@
+
+
+#include <stdio.h>
+
+int main (void) {
+   
+   int x[100]; /* This declares a 100-integer arrary */
+   int t;
+  
+
+   /* load  with values o through 99 */
+   for ( t = 0; t < 100; ++t )
+     x[t]= t ;
+
+   /* Display contents of x */
+   for (t = 0; t < 100; ++t )
+      printf("%d", x[t]);
+  
+   return 0;
+
+}
+
+ 
+  

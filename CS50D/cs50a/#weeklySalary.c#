@@ -1,0 +1,22 @@
+/*
+ * File: weeklySalary.c
+ * --------------------
+ * This program computes and displays a person's  weekly salary.
+ */
+
+#include <stdio.h>
+
+int main () {
+
+   int hoursWorked, monthlySalary;
+  
+   printf("Please enter the number of hours worked:");
+   scanf("%"d, &hoursWorked);
+
+   if (
+ 
+
+
+
+}
+

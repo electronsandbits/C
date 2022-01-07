@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+/*Function  prototypes  with a pointer parameter */
+
+void newval(float *);  
+float testval;
+
+int main() {
+   printf("\nEnter a number: ");
+   scanf("%f", &testval);
+
+   printf("\nFrom main(): The value in testval is: %5.2f \n",
+                                                    testval);
+   newval(&testval);   /* call the function */
+
+   printf("\nFrom main(): The value in testval has been changed to: %5.2f \n", 
+                                                        testval);
+
+   return 0;
+}
+
+void newval(float *xnum) {
+  printf("\nFrom newval(): The value pointed to by xnum is: %5.2f \n", *xnum);                                 
+  *xnum = *xnum + 20.2;
+}

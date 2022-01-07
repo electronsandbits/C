@@ -1,0 +1,15 @@
+/*
+ * File: inner.c 
+ * -------------
+ * This program computes the inner product of two vectors.
+ */
+
+#include <stdio.h>
+
+
+int main() {
+
+
+
+
+}

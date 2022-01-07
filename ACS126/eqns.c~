@@ -1,0 +1,17 @@
+/*
+ * File: eqns.c 
+ * ------------
+ * This program  computes a solution
+ * to a Set of Simultaneous Equations.
+ */
+
+
+#include <stdio.h>
+
+int main() {
+   float a, b, c, d, e, f;
+   float den, x, y; 
+
+
+
+} 

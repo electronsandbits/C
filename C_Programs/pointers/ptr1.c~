@@ -1,0 +1,15 @@
+/*
+ * File:ptr2.c 
+ * -----------
+ * A simple program illustrating pointers.
+ */
+
+
+#include <stdio.h>
+
+int main() {
+
+
+
+
+}

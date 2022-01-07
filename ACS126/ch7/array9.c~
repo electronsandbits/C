@@ -1,0 +1,28 @@
+/*
+ * File: array8.c
+ * --------------
+ * This program illustrates the addition  of a 
+ * scalar to the elements of an array.
+ */
+
+#include <stdio.h>
+
+
+/* Constants */
+
+#define SIZE 5
+
+/* Main program */
+
+int main() {
+   int i; 
+   int a[SIZE] = {12, 18, 9, 23, 16};
+
+   for (i = 0; i < SIZE; i++) {
+     // b[i] = a[i];
+      b[SIZE - 1 -i ] = a[i];
+      printf("%f\n",  b[SIZE -1 - i]);
+   }
+   
+   return 0;
+}

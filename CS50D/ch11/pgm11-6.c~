@@ -1,0 +1,17 @@
+/*
+ * File:pgm11-6.c 
+ * --------------
+ * This program illustrates how an array is passed to a function.
+ */
+
+#include <stdio.h>
+
+
+int main() {
+
+
+
+
+
+
+}

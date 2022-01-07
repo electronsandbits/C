@@ -1,0 +1,25 @@
+/*
+ * File: swap.c 
+ * ------------
+ * This program illustrates how to 
+ *
+ */
+
+
+
+#include <stdio.h>
+
+
+/* Function prototypes */
+
+void swap (int *x, int *y);
+
+
+/* Main program */
+
+
+int main() {
+
+
+
+}

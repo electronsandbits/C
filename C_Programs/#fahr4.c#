@@ -1,0 +1,24 @@
+/*
+ * File: fahr3.c
+ * -------------
+ * This program uses a for loop to print the fahrenheit table
+ * in reverse order - K&R EXERCISE 1.5.
+ */
+
+
+
+#include<stdio.h>
+
+
+int main ()   {
+
+   printf("FAHR CELSIUS\n");
+   printf("---- -------\n");
+   int fahr;
+   for (fahr = 300; fahr >= 0; fahr-= 20) {
+      printf("%3d %6.1f\n", fahr, (5.0 / 9.0) * (fahr - 32));
+  
+   }
+   return 0;
+
+}

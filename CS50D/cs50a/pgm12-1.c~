@@ -1,0 +1,26 @@
+/* 
+ * File: pgm12-1.c 
+ * ---------------
+ *
+ *
+ */
+
+
+
+#include <stdio.h>
+
+int main() {
+   struct {
+      int month;
+      int day;
+      int year;
+   }  birth;
+
+   birth.month = 12;
+   birth.day = 28;
+   birth.year = 1987;
+   printf ("My birth date is %d/%d/%d\n",
+             birth.month,birth.day,birth.year % 100);
+
+   return 0;
+ }

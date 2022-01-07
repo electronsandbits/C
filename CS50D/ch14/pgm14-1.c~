@@ -1,0 +1,11 @@
+/*
+ * File:pgm14-1.c 
+ * --------------
+ * This program illustrates the use of an  AND operation.
+ */
+
+
+
+#include <stdio.h>
+
+
